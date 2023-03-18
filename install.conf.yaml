@@ -5,9 +5,9 @@
 - clean: ['~']
 
 - link:
-    ~/.tmux.conf: tmux.conf
-    ~/.vim: vim
-    ~/.vimrc: vimrc
+    ~/.vim:
+    ~/.zshrc:
+    ~/.gitconfig:
 
 - create:
     - ~/downloads
