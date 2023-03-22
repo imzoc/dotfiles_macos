@@ -10,7 +10,7 @@
     ~/.gitconfig:
 
 - create:
-    - ~/downloads
+    - ~/Downloads
     - ~/.vim/undo-history
 
 # - shell:

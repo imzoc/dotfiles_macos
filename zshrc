@@ -36,6 +36,7 @@ export DOTFILES="$HOME/.dotfiles"
 export PATH="$DOTFILES:$PATH"		# Add dotfiles to PATH
 export EDITOR="/usr/bin/vim"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"	# Syntax highlighting for man pages with bat
+export XDG_CONFIG_HOME="$DOTFILES"
 
 ### Aliases
 alias q="exit"
