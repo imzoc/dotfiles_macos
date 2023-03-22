@@ -53,6 +53,8 @@ alias gstat='git status'
 alias gcomm='git commit'
 alias gpull='git pull'
 alias gpush='git push'
+alias gadd='git add'
+alias gaddam='git add -am'
 
 ### Functions
 function mkcd() {
