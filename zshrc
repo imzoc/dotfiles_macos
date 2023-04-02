@@ -32,6 +32,7 @@ set show-all-if-ambiguous on
 ### Set environment variables
 export PATH="/usr/local/bin:/usr/bin:/bin:/user/sbin:/sbin"
 export PATH="/usr/local/Cellar/openvpn/2.5.7/sbin/:$PATH"	# Add ProtonVPN to PATH
+export PATH="$HOME/.cargo/bin:$PATH"
 export DOTFILES="$HOME/.dotfiles"
 export PATH="$DOTFILES:$PATH"		# Add dotfiles to PATH
 export EDITOR="/usr/bin/vim"
@@ -46,15 +47,8 @@ alias ll="ls -l"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-
-alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"	# Fuck you MacOS
-
-alias gstat='git status'
-alias gcomm='git commit'
-alias gpull='git pull'
-alias gpush='git push'
-alias gadd='git add'
-alias gaddam='git add -am'
+alias vimrc="vim ~/.dotfiles/vimrc"
+alias zshrc="vim ~/.dotfiles/zshrc"
 
 ### Functions
 function mkcd() {
