@@ -8,6 +8,8 @@
     ~/.vim:
     ~/.zshrc:
     ~/.gitconfig:
+    ~/.config/fish/config.fish:
+
 
 - create:
     - ~/Downloads
