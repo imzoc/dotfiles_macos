@@ -4,7 +4,8 @@ if status is-interactive
 
     # Various binary paths
     set -x PATH "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-
+    set -x PATH "/usr/local/lib/python3.11/pip:$PATH"
+    
     # Add path for Rust and Cargo installed by Rustup
     set -x PATH "$HOME/.cargo/bin:$PATH"
 
