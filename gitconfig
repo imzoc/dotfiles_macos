@@ -3,3 +3,8 @@
 	email = 56801478+imzoc@users.noreply.github.com
 [core]
 	excludesfile = /Users/zachary/.gitignore
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
