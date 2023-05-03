@@ -2,4 +2,4 @@
 2. Change lots of settings in System Preferences
 3. Brew install vim keepassxc iterm2 brave-browser git
 4. ssh-keygen -t ed25119 (or something) then create .ssh/config, add key to apple keychain.
-5. 
+5.   
